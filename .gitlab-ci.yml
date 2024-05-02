@@ -1,0 +1,32 @@
+stages:
+  - test
+  - deploy
+
+test-all:
+  stage: test
+  except: 
+    - java
+  script:
+    - mvn clean install
+
+test-unit:
+  stage: test
+  only: 
+    - java
+  script:
+    - mvn clean package
+    - cp target/demoproject*.jar demoproject-${CI_COMMIT_SHA}.jar
+
+  artifacts:
+    name: demoproject
+    expire_in: 1 week
+    paths:
+      - demoproject-${CI_COMMIT_SHA}.jar
+
+deploy:
+  stage: deploy
+  needs: [test-unit]
+  only: 
+    - java
+  script:
+    - ls demoproject*.jar
