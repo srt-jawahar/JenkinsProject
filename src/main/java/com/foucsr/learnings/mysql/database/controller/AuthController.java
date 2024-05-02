@@ -87,11 +87,6 @@ public class AuthController {
 
 	@Autowired
 	EmailHtmlLoader emailHtmlLoader;
-
-	@GetMapping("/temp")
-	public String tempMethod() {
-		return "Hello World";
-	}
 	
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@PostMapping("/forgetPassword")
