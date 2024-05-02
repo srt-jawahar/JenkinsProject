@@ -78,7 +78,11 @@ public class UserController {
 		UserSummary userSummary = new UserSummary(currentUser.getId(), currentUser.getUsername(), currentUser.getPassword());
 		return userSummary;
 	}
-	
+
+	@GetMapping("/temp")
+	public String tempMethod() {
+		return "Hello World";
+	}
 
 	@GetMapping("/users/{username}")
 	public UserProfile getUserProfile(@PathVariable(value = "username") String username) {
