@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.foucsr</groupId>
-    <artifactId>TicketManager</artifactId>
+    <artifactId>LearningPortal</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-    <name>TicketManager</name>
-    <description>Personal Project Management Tool</description>
+    <name>LearningPortal</name>
+    <description>Personal Project Development Application</description>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -85,7 +85,15 @@
             <groupId>commons-dbcp</groupId>
             <artifactId>commons-dbcp</artifactId>
             <version>${commons.dbcp.version}</version>
-        </dependency>       	
+        </dependency>     
+        
+        <!-- For PDF -->
+<dependency>
+    <groupId>org.apache.pdfbox</groupId>
+    <artifactId>pdfbox</artifactId>
+    <version>3.0.1</version>
+</dependency>
+          	
 	
 	<dependency>
       <groupId>javax.mail</groupId>

@@ -1,0 +1,118 @@
+2024-05-02 19:42:41 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:121) - Scanning for repositories in packages com.foucsr.learnings.mysql.database.repository.
+2024-05-02 19:42:41 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: screensRepository - Interface: com.foucsr.learnings.mysql.database.repository.ScreensRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2024-05-02 19:42:41 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: userRepository - Interface: com.foucsr.learnings.mysql.database.repository.UserRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2024-05-02 19:42:41 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: emailDetailsRepository - Interface: com.foucsr.learnings.mysql.database.repository.EmailDetailsRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2024-05-02 19:42:41 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: roleRepository - Interface: com.foucsr.learnings.mysql.database.repository.RoleRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2024-05-02 19:42:41 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:153) - Finished repository scanning.
+2024-05-02 19:42:41 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:121) - Scanning for repositories in packages com.foucsr.learnings.mysql.database.repository.
+2024-05-02 19:42:41 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: userRepository - Interface: com.foucsr.learnings.mysql.database.repository.UserRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2024-05-02 19:42:41 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: emailDetailsRepository - Interface: com.foucsr.learnings.mysql.database.repository.EmailDetailsRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2024-05-02 19:42:41 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: roleRepository - Interface: com.foucsr.learnings.mysql.database.repository.RoleRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2024-05-02 19:42:41 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:142) - Spring Data JPA - Registering repository: screensRepository - Interface: com.foucsr.learnings.mysql.database.repository.ScreensRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2024-05-02 19:42:41 DEBUG [restartedMain] (o.s.d.r.c.RepositoryConfigurationDelegate:153) - Finished repository scanning.
+2024-05-02 19:42:43 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Initializing ProtocolHandler ["http-nio-2000"]
+2024-05-02 19:42:43 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Starting service [Tomcat]
+2024-05-02 19:42:43 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Starting Servlet Engine: Apache Tomcat/8.5.34
+2024-05-02 19:42:43 INFO  [localhost-startStop-1] (o.a.j.l.DirectJDKLog:180) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_321\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Phalgune/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin/server;C:/Users/Phalgune/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\FocusR\Maven\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;D:\FocusR\Mysql\mysql-8.0.29-winx64-debug-test\mysql-8.0.29-winx64\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk1.8.0_321\bin;D:\FocusR\Git\Git\bin;D:\FocusR\Maven\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk-11.0.16\bin;C:\Users\Jawahar\nvm;C:\Program Files\nodejs;C:\Program Files\PuTTY\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\Jawahar\AppData\Local\Microsoft\WindowsApps;D:\FocusR\Git\Git\cmd;C:\Users\Jawahar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Jawahar\AppData\Roaming\npm;;C:\Users\Jawahar\Downloads\java-2022-03-20220502T091501Z-001\java-2022-03\eclipse;;.]
+2024-05-02 19:42:43 INFO  [localhost-startStop-1] (o.a.j.l.DirectJDKLog:180) - Initializing Spring embedded WebApplicationContext
+2024-05-02 19:42:43 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:495) - Driver class com.mysql.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: LearningPortal
+  delegate: true
+----------> Parent Classloader:
+org.springframework.boot.devtools.restart.classloader.RestartClassLoader@18f442a
+
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1119) - HikariPool-1 - configuration:
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - allowPoolSuspension.............false
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - autoCommit......................true
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - catalog.........................none
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - connectionInitSql...............none
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - connectionTestQuery.............none
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - connectionTimeout...............30000
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSource......................none
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSourceClassName.............none
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSourceJNDI..................none
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - dataSourceProperties............{password=<masked>}
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - driverClassName................."com.mysql.jdbc.Driver"
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - healthCheckProperties...........{}
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - healthCheckRegistry.............none
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - idleTimeout.....................600000
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - initializationFailFast..........true
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - initializationFailTimeout.......1
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - isolateInternalQueries..........false
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - jdbc4ConnectionTest.............false
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - jdbcUrl.........................jdbc:mysql://localhost:3306/learning_portal_dev?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - leakDetectionThreshold..........0
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - maxLifetime.....................1800000
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - maximumPoolSize.................10
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - metricRegistry..................none
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - metricsTrackerFactory...........none
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - minimumIdle.....................10
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - password........................<masked>
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - poolName........................"HikariPool-1"
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - readOnly........................false
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - registerMbeans..................false
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - scheduledExecutor...............none
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - scheduledExecutorService........internal
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - schema..........................none
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - threadFactory...................internal
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - transactionIsolation............default
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - username........................"root"
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.hikari.HikariConfig:1151) - validationTimeout...............5000
+2024-05-02 19:42:44 INFO  [localhost-startStop-1] (c.z.h.HikariDataSource:110) - HikariPool-1 - Starting...
+2024-05-02 19:42:44 DEBUG [localhost-startStop-1] (c.z.h.pool.HikariPool:538) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@44f52b9c
+2024-05-02 19:42:44 INFO  [localhost-startStop-1] (c.z.h.HikariDataSource:123) - HikariPool-1 - Start completed.
+2024-05-02 19:42:44 DEBUG [HikariPool-1 housekeeper] (c.z.h.pool.HikariPool:404) - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2024-05-02 19:42:44 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@53d91442
+2024-05-02 19:42:44 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@2787220d
+2024-05-02 19:42:44 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@214f3d45
+2024-05-02 19:42:44 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7acba55d
+2024-05-02 19:42:44 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3cc91343
+2024-05-02 19:42:44 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@76150a71
+2024-05-02 19:42:44 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7814af36
+2024-05-02 19:42:44 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@269a3ff5
+2024-05-02 19:42:44 DEBUG [HikariPool-1 connection adder] (c.z.h.p.HikariPool$PoolEntryCreator:702) - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@23448a11
+2024-05-02 19:42:44 DEBUG [HikariPool-1 connection adder] (c.z.h.pool.HikariPool:404) - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.c.JpaMetamodelMappingContextFactoryBean:77) - Initializing JpaMetamodelMappingContext…
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.c.JpaMetamodelMappingContextFactoryBean:84) - Finished initializing JpaMetamodelMappingContext!
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.learnings.mysql.database.repository.UserRepository…
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findFirstAdmin
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findUserByIdToActiveOrInactive
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method existsByUsername
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.existsByUsername
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.existsByUsername
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method existsByEmail
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.existsByEmail
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.existsByEmail
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findListOfUsers
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByAgentId
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByUsernameOrEmail
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByUsernameOrEmail
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByUsernameOrEmail
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findUser
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByIdIn
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByIdIn
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByIdIn
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByVendorId
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByResetToken
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByResetToken
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByResetToken
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByFirstNameAndLastName
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByEmail
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByEmail
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByEmail
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByUsername
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query User.findByUsername
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query User.findByUsername
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.learnings.mysql.database.repository.UserRepository.
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.learnings.mysql.database.repository.EmailDetailsRepository…
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findOneEmailDetails
+2024-05-02 19:42:45 DEBUG [localhost-startStop-1] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.learnings.mysql.database.repository.EmailDetailsRepository.
+2024-05-02 19:42:46 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.learnings.mysql.database.repository.RoleRepository…
+2024-05-02 19:42:46 DEBUG [restartedMain] (o.s.d.j.r.q.JpaQueryFactory:55) - Looking up query for method findByName
+2024-05-02 19:42:46 DEBUG [restartedMain] (o.s.d.j.r.q.NamedQuery:138) - Looking up named query Role.findByName
+2024-05-02 19:42:46 DEBUG [restartedMain] (o.s.d.j.r.q.NamedQuery:119) - Did not find named query Role.findByName
+2024-05-02 19:42:46 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.learnings.mysql.database.repository.RoleRepository.
+2024-05-02 19:42:46 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:292) - Initializing repository instance for com.foucsr.learnings.mysql.database.repository.ScreensRepository…
+2024-05-02 19:42:46 DEBUG [restartedMain] (o.s.d.r.c.s.RepositoryFactorySupport:331) - Finished creation of repository instance for com.foucsr.learnings.mysql.database.repository.ScreensRepository.
+2024-05-02 19:42:47 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Starting ProtocolHandler ["http-nio-2000"]
+2024-05-02 19:42:47 INFO  [restartedMain] (o.a.j.l.DirectJDKLog:180) - Using a shared selector for servlet write/read
