@@ -133,5 +133,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>LearningPortal</finalName>
 	</build>
 </project>
